@@ -26,7 +26,7 @@ function Hero() {
               production-ready code 10x faster.
             </p>
             <div className="flex flex-col md:flex-row gap-4">
-              <button className="w-full md:w-auto my-3 px-6  md:px-8 py-3 md:py-4   rounded-lg bg-blue-500 p-2 " >Start Coding</button>
+              <button className="w-full md:w-auto hover:cursor-pointer my-3 px-6  md:px-8 py-3 md:py-4   rounded-lg bg-blue-500 p-2 " >Start Coding</button>
             </div>
           </div>
       <div className="w-full relative animate-[fadeInUp_1s_ease-out_0.3s_both]">
