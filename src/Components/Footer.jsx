@@ -4,7 +4,7 @@ import { Twitter, Github, Linkedin, Mail } from 'lucide-react';
 function Footer() {
   return (
     <footer className=" border-t border-gray-900 py-16 px-10 md:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className=" mx-auto">
       
         <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-8 mb-16">
        

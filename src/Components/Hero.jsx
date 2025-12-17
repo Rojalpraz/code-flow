@@ -9,8 +9,8 @@ function Hero() {
     const[activeTab, setActiveTab] = useState("App.jsx");
   return (
     <section id="/" className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20  px-4 sm:px-6 lg:px-8 overflow-hidden">
-      <div className="max-w-7xl mx-auto text-center relative w-full">
-        <div className="max-w-7xl mx-auto flex gap-3 flex-col md:grid md:grid-cols-2 text-center md:text-left items-center">
+      <div className=" mx-auto text-center relative w-full">
+        <div className=" mx-auto flex gap-3 flex-col md:grid md:grid-cols-2 text-center md:text-left items-center">
           <div className="md:mx-1 animate-[fadeInUp_1s_ease-out] ">
             <div className=" inline-flex  px-3 md:px-4 bg-blue-500/10 border border-blue-500/20 py-2 md:py-3 items-center rounded-xl mb-4 space-x-2 sm:mb-6">
               <Sparkles className="w-4 h-4 text-blue-400"/><span className="text-xs md:text-sm text-blue-300"> Introducing CodeFlow AI</span>
