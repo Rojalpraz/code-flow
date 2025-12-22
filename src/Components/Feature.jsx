@@ -40,9 +40,9 @@ const result = await processData(input)
   return (
     <section
       id="features"
-      className="py-16 md:py-20 px-10 md:px-6 lg:px-8 relative"
+      className=" py-16 md:py-20 px-10 md:px-6 lg:px-8 relative"
     >
-      <div className="my-9 mx-auto">
+      <div className="my-9 max-w-7xl mx-auto">
         <div className="mb-20  animate-[fadeIn_1s_ease-out]">
           <div className="text-center text-5xl font-semibold">
             <span className="block"> Your Complete Development</span>

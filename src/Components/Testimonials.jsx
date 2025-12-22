@@ -33,7 +33,7 @@ function Testimonials() {
       id="testimonials"
       className="py-16 md:py-20 px-10 md:px-6 lg:px-8 relative"
     >
-      <div className=" mx-auto lg:flex lg:gap-12 lg:items-start">
+      <div className=" max-w-7xl mx-auto  lg:flex lg:gap-12 lg:items-start">
         <div className="w-full lg:w-[65%]  text-4xl md:text-5xl lg:text-6xl text-center lg:text-left animate-[fadeInLeft_1s_ease-out]">
           <h1 className="font-semibold ">
             <span className="block"> What developers</span>

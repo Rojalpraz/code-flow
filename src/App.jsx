@@ -5,27 +5,25 @@ import Feature from "./Components/Feature";
 import Price from "./Components/Price";
 import Testimonials from "./Components/Testimonials";
 import Footer from "./Components/Footer";
-import { useEffect } from "react";
-
+import {useEffect} from "react";
 
 function App() {
-    useEffect(() => {
-    
+  useEffect(() => {
     if (window.location.hash) {
-      window.history.replaceState(null, '', window.location.pathname);
+      window.history.replaceState(null, "", window.location.pathname);
     }
   }, []);
   return (
-  
-      <div className="min-h-screen bg-slate-950 text-white overflow-hidden ">
+    <div className="min-h-screen   bg-slate-950 text-white overflow-hidden ">
+     
+
         <Navbar />
-        <Hero/>
+        <Hero />
         <Feature />
         <Price />
         <Testimonials />
-         <Footer />
-      </div>
-   
+        <Footer />
+    </div>
   );
 }
 

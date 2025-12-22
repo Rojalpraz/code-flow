@@ -7,8 +7,8 @@ function Navbar() {
   const [mobilemenusisopen, setOpen] = useState(false);
 
   return (
-    <nav className="fixed bg-slate-950/20 backdrop-blur-sm top-0 w-full z-50 transition-all duration-300 ">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
+    <nav className="fixed  bg-slate-950/20 backdrop-blur-lg top-0 w-full z-50 transition-all duration-300 ">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
           <div className="flex items-center gap-2 ">
             <a href="#">

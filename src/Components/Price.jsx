@@ -55,8 +55,9 @@ function Price() {
 
   return (
     <section  id="pricing"
-      className="py-16 md:py-20 px-10 md:px-6 lg:px-8 relative">
-         <div className="mb-20">
+      className="py-16  md:py-20 px-10 md:px-6 lg:px-8 relative">
+        <div className='mx-auto max-w-7xl'>         
+          <div className="mb-20 ">
           <div className="text-center text-5xl space-y-0.5 font-semibold">
             <span className="block"> Simple, Transparent </span>
             <span className="text-blue-400">Pricing Plans</span>
@@ -99,6 +100,8 @@ function Price() {
         
         </div>
         <h1 className='text-center mt-14 mb-4 text-gray-400 text-lg'>Need a custom plan? <a href='' className='text-sky-500 hover:text-blue-600'> Contact our sales team</a></h1>
+   </div>
+
     </section>
   )
 }
