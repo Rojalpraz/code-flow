@@ -11,9 +11,9 @@ function Navbar() {
       <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
           <div className="flex items-center gap-2 ">
-            <div>
+            <a href="#">
               <img src="/logo.png" alt="" className="w-6 h-6 md:w-8 md:h-8" />
-            </div>
+            </a>
             <span className=" text-xl md:text-2xl">
               <span className="text-white">Code</span>
               <span className="text-sky-600">Flow</span>

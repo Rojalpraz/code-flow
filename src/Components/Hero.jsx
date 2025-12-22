@@ -8,7 +8,7 @@ import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs";
 function Hero() {
     const[activeTab, setActiveTab] = useState("App.jsx");
   return (
-    <section id="/" className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20  px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section id="#" className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20  px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className=" mx-auto text-center relative w-full">
         <div className=" mx-auto flex gap-3 flex-col md:grid md:grid-cols-2 text-center md:text-left items-center">
           <div className="md:mx-1 animate-[fadeInUp_1s_ease-out] ">
