@@ -11,11 +11,11 @@ function Hero() {
     <section id="#" className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20  px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className=" mx-auto max-w-7xl text-center relative w-full">
         <div className=" mx-auto flex gap-3 flex-col md:grid md:grid-cols-2 text-center md:text-left items-center">
-          <div className="md:mx-1 animate-[fadeInUp_1s_ease-out] ">
+          <div className="md:mx-1 animate-[fadeInUp_1s_ease-out]">
             <div className=" inline-flex  px-3 md:px-4 bg-blue-500/10 border border-blue-500/20 py-2 md:py-3 items-center rounded-xl mb-4 space-x-2 sm:mb-6">
-              <Sparkles className="w-4 h-4 text-blue-400"/><span className="text-xs md:text-sm text-blue-300"> Introducing CodeFlow AI</span>
+              <Sparkles className="w-4 h-4 text-blue-400"/><span className="text-xs md:text-sm text-blue-300">Introducing CodeFlow AI</span>
             </div>
-            <h1 className="text-5xl xl:text-6xl space-y-2 font-semibold mb-4 md:mb-8 ">
+            <h1 className="text-5xl xl:text-6xl space-y-2 font-semibold mb-4 md:mb-3 ">
             <span className="block">Code Faster</span>
             <span className="block text-blue-400">Build Better</span>
             <span className="block"> With CodeFlow AI</span>
@@ -26,7 +26,7 @@ function Hero() {
               production-ready code 10x faster.
             </p>
             <div className="flex flex-col md:flex-row gap-4">
-              <button className="w-full md:w-auto hover:cursor-pointer my-3 px-6  md:px-8 py-3 md:py-4   rounded-lg bg-blue-500 p-2 " >Start Coding</button>
+              <button className="w-full md:w-auto hover:cursor-pointer my-5 px-6  md:px-8 py-3 md:py-4   rounded-lg bg-blue-500 p-2 " >Start Coding</button>
             </div>
           </div>
       <div className="w-full relative animate-[fadeInUp_1s_ease-out_0.3s_both]">
